@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
   demands:
   - msbuild
-  - visualstudio 14
+  - visualstudio
 
 variables:
   solution: '**/*.sln'
